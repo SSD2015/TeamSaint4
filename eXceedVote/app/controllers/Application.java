@@ -32,7 +32,7 @@ public class Application extends Controller {
     	}else{
     		
     		session().clear();
-    		session("Username",loginForm.get().Username);
+    		session("username",loginForm.get().username);
     		return redirect(routes.Application.index());	
     			
     	}
@@ -41,12 +41,12 @@ public class Application extends Controller {
     }
     
     public static class Login{
-    	public String Username;
-    	public String Password;
+    	public String username;
+    	public String password;
    
     	public String validate(){
     		
-    		if(Account.authenticate(Username,Password)==null){
+    		if(Account.authenticate(username,password)==null){
     			
     			return "Invalid user or password";
     			

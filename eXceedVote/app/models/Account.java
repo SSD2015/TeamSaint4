@@ -11,16 +11,16 @@ public class Account extends Model {
 	
 @Id
 	public Long ID;
-	public String Username;
-	public String Password;
+	public String username;
+	public String password;
 	public int type;
 	public static Finder<Long,Account> find=new Finder<Long,Account>(Long.class,Account.class);
 
-	public static Account authenticate(String Username,String Password){
+	public static Account authenticate(String username,String password){
 		
 		
 		
-		return Account.find.where().eq("Username", Username).eq("Password" , Password).findUnique();
+		return Account.find.where().eq("username", username).eq("password" , password).findUnique();
 		
 	}
 	
