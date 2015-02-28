@@ -3,7 +3,7 @@ package controllers;
 
 
 
-import play.*;
+import play.*;  
 import play.mvc.*;
 import play.data.*;
 import static play.data.Form.*; 
@@ -13,9 +13,11 @@ import models.*;
 public class Application extends Controller {
 
     public static Result index() {
-    	Account a = new Account ("aaa@aaa","bbb",1);
-    	a.save();
-        return ok(index.render("a"));
+    	
+    	
+    		
+    	
+        return ok(index.render("5") );
     }
     public static Result login(){
     	return ok(login.render(Form.form(Login.class)));
@@ -28,8 +30,9 @@ public class Application extends Controller {
     		
     		
     	}else{
+    		
     		session().clear();
-    		session("email",loginForm.get().email);
+    		session("Username",loginForm.get().Username);
     		return redirect(routes.Application.index());	
     			
     	}
@@ -38,14 +41,18 @@ public class Application extends Controller {
     }
     
     public static class Login{
-    	public String email;
-    	public String password;
+    	public String Username;
+    	public String Password;
+   
     	public String validate(){
-    		if(Account.authenticate(email,password)==null){
+    		
+    		if(Account.authenticate(Username,Password)==null){
+    			
     			return "Invalid user or password";
     			
     			
     		}
+    		
     		return null;
     		
     		

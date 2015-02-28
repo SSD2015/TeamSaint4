@@ -15,14 +15,12 @@ public class Account extends Model {
 	public String Password;
 	public int type;
 	public static Finder<Long,Account> find=new Finder<Long,Account>(Long.class,Account.class);
-	public Account(String string, String string2, int i) {
-		this.Username=string;
-		this.Password=string2;
-	}
-	public static Account authenticate(String username,String password){
+
+	public static Account authenticate(String Username,String Password){
 		
 		
-		return Account.find.where().eq("Username", username).eq("Password", password).findUnique(); 
+		
+		return Account.find.where().eq("Username", Username).eq("Password" , Password).findUnique();
 		
 	}
 	

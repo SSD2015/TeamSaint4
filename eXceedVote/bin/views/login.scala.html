@@ -1,21 +1,7 @@
 @(form: Form[Application.Login])
+@main("Welcome to Play") {
 
-
-<html>
-	<head>
-		<title>Zentasks</title>
-		<link rel="shortcut icon" type="image/png" hreaf="@routes.Assets.at("images/favicaon.png")">
-		<link rel="stylesheet" type="text/css" media ="screen" hreaf="@routes.Assets.at("stylesheets/main.css")">
-		
-	</head>
-	<body>
-		<head>
-			<a href="@routes.Application.index" id="logo"><span>ZEN</span>tasks</a>
-		
-		
-		</head>
-		
-		@helper.form(routes.Application.authenticate){
+@helper.form(routes.Application.authenticate){
 			<h1>Sign in</h1>
 			@if(form.hasGlobalErrors){
 				<p class="error">
@@ -24,18 +10,17 @@
 				</p>
 			}
 				
-				<input type="username" name="email" placeholder="Email" value="@form("email").value">
+				<input type="Username" name="Username" placeholder="Email" >
 			
 				
-				<input type="password" name="password" placeholder="password" >
+				<input type="Password" name="Password" placeholder="password" >
 			
 				
 				<button type="submit">Login</button>
 				
 		
 		}
-	
-	</body>
 
+}
 
-</html>
+	<!---->
