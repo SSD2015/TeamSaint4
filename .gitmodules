@@ -1,0 +1,3 @@
+[submodule "eXceedVote"]
+	path = eXceedVote
+	url = https://github.com/runyasak/eXceedVote.git
