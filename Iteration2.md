@@ -31,9 +31,10 @@
 
 ##Unplanned Work
 
-Time limit
+time limit
 edit rating and voting
 comment
 login as admin
+add team
 
 
