@@ -31,10 +31,10 @@
 
 ##Unplanned Work
 
-time limit
-edit rating and voting
-comment
-login as admin
-add team
+time limit/
+edit rating and voting/
+comment/
+login as admin/
+add team/
 
 
