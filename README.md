@@ -36,7 +36,7 @@ Exceed vote by TeamSaint4 @yoyothai00 @runyasak @kazixma @vasupol11 @knewrock
 </table>
 
 <br>
-###Site URL: https://damp-sierra-5224.herokuapp.com/ 
+###Site URL: http://128.199.133.130:49172/
 <br>
 ##Documentation
 [Vision Statement](https://github.com/SSD2015/TeamSaint4/wiki/Vision-Statement)
