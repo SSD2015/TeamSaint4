@@ -1,17 +1,16 @@
 ##Installation
 
-*** You device must have Activator to run program. Download on this site, https://www.playframework.com/download ***
+##### You device must have Activator to run program. Download on this site, https://www.playframework.com/download #####
 
-1. Clone from runyasak/eXceedVote on github (https://github.com/runyasak/eXceedVote.git)
+* Clone from runyasak/eXceedVote on github (https://github.com/runyasak/eXceedVote.git)
 
-2. Run the activator with command line
+* Run the activator with command line
 
-	$ activator run
+      <p><code> $ activator clean</code><p>
 
- If you want to recompile you can execute with this command
+   If you want to recompile you can execute with this command
+      <p><code> $ activator clean</code><p>
 
-	$ activator clean
 
-
-3. When server is started, you can run on any browser with default url
+* When server is started, you can run on any browser with default url
    localhost:9000/
