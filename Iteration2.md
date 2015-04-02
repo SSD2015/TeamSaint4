@@ -1,4 +1,4 @@
-# Iteration Plan for EL1
+# Iteration Plan for EL2
 
 ## Milestone(s)
 
