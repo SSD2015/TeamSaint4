@@ -36,7 +36,7 @@ Exceed vote by TeamSaint4 @yoyothai00 @runyasak @kazixma @vasupol11 @knewrock
 </table>
 
 <br>
-###Site URL: http://128.199.133.130:49187/
+###Site URL: http://exceedvote.teamsaint4.tk/
 <br>
 ##Documentation
 [Vision Statement](https://github.com/SSD2015/TeamSaint4/wiki/Vision-Statement)
