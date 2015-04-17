@@ -25,7 +25,6 @@
 | Can submit vote | 1 |
 | Algorithm for calculating vote | 1 |
 | Algorithm for calculating rate | 1 |
-| Sort and show team in result page | 1 |
 
 ##Unplanned Work
 
