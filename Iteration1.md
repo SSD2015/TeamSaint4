@@ -7,7 +7,7 @@
 | Milestone | Description, Evaluation Criteria, Work Products |
 |-----------|-----------------------------------------|
 |  UI  | Description: The web pages UI are established but without most functions. The user will only be able to navigate through them.|
-|  UC1  | Description: UC1 "User identification" is added, connected to database, and tested.|
+|  Authentication  | Description: UC1 "User identification" is added, connected to database, and tested.|
 |  Website Online | Description: The web application is deployed on a server.|
 
 ## Iteration Objective(s)
