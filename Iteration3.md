@@ -7,32 +7,23 @@
 | Milestone | Description, Evaluation Criteria, Work Products |
 |-----------|-----------------------------------------|
 |  Admin | Description: All the pages are secured and cannot be accessed without being authenticated.|
-|  UC  | Description: The rating page can save and submit ratings to the database.|
-|  UC6  | Description: The voting page functions and connect to the database.|
-|  Admin  | Description: Admin can add account to the database.|
-|  UI  | Description: The voting page UI is simpler and easier to use.|
+|  UC3  | Description: The rating can be edited and resubmitted to the database.|
+|  UC4  | Description: The voting can be edited and resubmitted to the database.|
+|  Admin | Description: The admin and voter pages are separated|
 
 ## Iteration Objective(s)
 
 
 | Objective/Feature/Task | Priority (1=very high, 5=low) |
 |------------------------|:-----------------------------:|
-| Function for adding account to database | 2 |
-| Simple page for adding account | 4 |
-| Star UI in rating page works | 2 |
-| Can save rating | 3 |
-| Can submit rating | 1 |
-| Design new voting page UI| 3 |
-| Can save vote | 3 |
-| Can submit vote | 1 |
-| Algorithm for calculating vote | 1 |
-| Algorithm for calculating rate | 1 |
-| Sort and show team in result page | 1 |
+| Separate user and admin page | 1 |
+| The rating can be edited | 1 |
+| The vote can be edited | 1 |
+| Voters cannot access admin pages | 1 |
+| timer | 3 |
+| anything that can be added can be deleted | 1 |
+| comment | 5 |
 
 ##Unplanned Work
 
-time limit/
-edit rating and voting/
-comment/
-login as admin/
-add team/
+
