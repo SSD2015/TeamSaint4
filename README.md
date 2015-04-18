@@ -39,6 +39,8 @@ Exceed vote by TeamSaint4 @yoyothai00 @runyasak @kazixma @vasupol11 @knewrock
 ###***** ID & PASSWORD FOR VOTER DIVISION 2 *****
 ###https://docs.google.com/spreadsheets/d/1suGF408siQYSDeOvSfCU7yn7YgctH1M7e7wGUyqGJE0/edit#gid=0
 <br>
+###Site URL: http://exceedvote.teamsaint4.tk/
+<br>
 ##Documentation
 [Vision Statement](https://github.com/SSD2015/TeamSaint4/wiki/Vision-Statement)
 
